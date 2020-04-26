@@ -5,7 +5,7 @@ namespace BlokTryCatch
     class Program
     {
 
-        class PodstZero : Exception // 
+        class PodstZero : Exception 
         {
         };
 
