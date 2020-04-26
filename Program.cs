@@ -48,10 +48,6 @@ namespace BlokTryCatch
                 {
                     Console.WriteLine("Wysokosc ma wartosc 0 lub mniejsza albo podana wartosc nie jest liczba!");
                 }
-                catch (Exception e)
-                {
-                    Console.WriteLine("{0} wyjatek", e);
-                }
                 finally
                 {
                     Console.WriteLine("Zapraszam ponownie!");
