@@ -40,11 +40,11 @@ namespace BlokTryCatch
                     Console.WriteLine("Pole trojkata wynosi: {0}", a * h / 2);
 
                 }
-                catch (PodstZero e) 
+                catch (PodstZero) 
                 {
                     Console.WriteLine("Podstawa ma wartosc 0 lub mniejsza albo podana wartosc nie jest liczba!");
                 }
-                catch (Hzero e) 
+                catch (Hzero) 
                 {
                     Console.WriteLine("Wysokosc ma wartosc 0 lub mniejsza albo podana wartosc nie jest liczba!");
                 }
