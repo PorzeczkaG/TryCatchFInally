@@ -54,7 +54,7 @@ namespace BlokTryCatch
                     Console.ReadKey();
                 }
 
-            } while (a <= 0 || h <= 0);
+            }
 
             Console.ReadLine();
         }
